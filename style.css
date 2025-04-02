@@ -1,0 +1,199 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial,sans-serif;
+}
+
+body{
+  min-height:200vh;
+}
+
+.skip-link{
+  position:absolute;
+  top:-40px;
+  left:10;
+  font-weight:bold;
+  background:#000;
+  color:white;
+  text-decoration:none;
+  transition:top 0.3s;
+}
+
+.skip-link:focus{
+  top:10px;
+}
+
+header{
+  color:white;
+  font-size:14px;
+}
+
+header h2{
+  margin:10px;
+  margin-bottom:40px;
+  padding:10px;
+  font-size:18px;
+  background:linear-gradient(to right,lightcyan,lightgray);
+  color:black;
+  border-radius:7px;
+  text-align:centre;
+}
+
+.sidebar-toggle{
+  display:none;
+}
+
+.menu-btn{
+  font-size:18px;
+  font-weight:bold;
+  cursor:pointer;
+  background-color:lightgrey;
+  color:black;
+  position:absolute;
+  top:50px;
+  left:0.5px;
+  border:10px;
+  margin:15px;
+  margin-top:45px;
+  border-radius:4px;
+}
+
+.sidebar{
+    width:0;
+    height:80vh;
+    background:black;
+    color:white;
+    position:fixed;
+    top:0;
+    left:0;
+    overflow-x:hidden;
+    transition:0.3s;
+    padding-top:20px;
+}
+
+.sidebar a {
+  display:block;
+  color:white;
+  text-decoration:none;
+  padding:15px;
+  font-size:18px;
+  transition:0.3s;
+}
+
+.sidebar a:hover{
+  background:Darkgrey;
+}
+
+.sidebar-toggle:checked~.sidebar{
+  width:150px;
+  padding-left:10px;
+}
+
+.close-btn {
+    background:grey;
+    font-size:14px;
+    font-weight:bold;
+    color:white;
+    border-radius:1px;
+    padding:3px;
+    margin:0px;
+    cursor:pointer;
+    display:flex;
+    text-align:left;
+}
+
+#main-content{
+  max-width:800px;
+  margin:10px;
+  padding:10px;
+}
+
+.introduction{
+  background:linear-gradient(to right,lightcyan,lightgrey);
+  margin:10px;
+  margin-top:30px;
+  padding:10px;
+  color:black;
+  border-radius:7px;
+  text-align:centre;
+}
+  
+.introduction h2 h3{
+  font-size:12px;
+  font-weight:bold;
+  margin-bottom:0px;
+}
+
+.introduction img{
+  width:100%;
+  max-width:600px;
+  height:auto;
+  display:block;
+  margin:0 auto;
+  margin-bottom:30px;
+  border-radius:10px;
+  border:4px solid black;
+}
+
+footer {
+  background: #3856ba;
+  color:black;
+  font-size:14px;
+  font-weight:bold; 
+  margin:10px;
+  padding:10px;
+  border-radius:7px;
+}
+
+.aboutme{
+  background:linear-gradient(to right,lightcyan,lightgrey);
+  color:black;
+  margin:10px;
+  padding:10px;
+  border-radius:7px;
+  text-align:centre;
+  font-size:15px;
+  font-weight:bold;
+}
+
+.whythispage{
+  background:linear-gradient(to right,lightcyan,lightgrey);
+  color:black;
+  margin:10px;
+  padding:10px;
+  border-radius:7px;
+  text-align:centre;
+  font-size:15px;
+  font-weight:bold;
+}
+
+.aboutme img{
+  transform:translateX(-95px);
+  width:40%;
+  max-width:150px;
+  height:auto;
+  display:block;
+  margin:0 auto;
+  margin-bottom:20px;
+  padding:0 auto;
+  border-radius:8px;
+  border:3px solid black;
+}
+
+
+  
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
